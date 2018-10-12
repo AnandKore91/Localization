@@ -1,0 +1,2 @@
+# Localization
+Localize iOS app.
