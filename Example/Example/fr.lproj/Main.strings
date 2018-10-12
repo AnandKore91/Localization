@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0lB-tV-pL6"; */
+"0lB-tV-pL6.text" = "Label";
+
+/* Class = "UISegmentedControl"; JG6-me-f6R.segmentTitles[0] = "English"; ObjectID = "JG6-me-f6R"; */
+"JG6-me-f6R.segmentTitles[0]" = "English";
+
+/* Class = "UISegmentedControl"; JG6-me-f6R.segmentTitles[1] = "Arabic"; ObjectID = "JG6-me-f6R"; */
+"JG6-me-f6R.segmentTitles[1]" = "Arabic";
+
+/* Class = "UISegmentedControl"; JG6-me-f6R.segmentTitles[2] = "French"; ObjectID = "JG6-me-f6R"; */
+"JG6-me-f6R.segmentTitles[2]" = "French";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "k4z-Hh-Phj"; */
+"k4z-Hh-Phj.text" = "Label";

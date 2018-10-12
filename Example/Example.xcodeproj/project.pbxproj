@@ -28,6 +28,9 @@
 		0C5290742170994C00EE1F42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0C5290752170996100EE1F42 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0C52907621709F4500EE1F42 /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalizationHelper.swift; path = Helpers/LocalizationHelper.swift; sourceTree = "<group>"; };
+		0C5290792170D3C700EE1F42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		0C52907B2170D3CA00EE1F42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		0C52907D2170D3CB00EE1F42 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C529062217098E500EE1F42 /* Base */,
+				0C5290792170D3C700EE1F42 /* en */,
+				0C52907B2170D3CA00EE1F42 /* fr */,
+				0C52907D2170D3CB00EE1F42 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
