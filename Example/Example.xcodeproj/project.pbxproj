@@ -13,6 +13,7 @@
 		0C529065217098E600EE1F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C529064217098E600EE1F42 /* Assets.xcassets */; };
 		0C529068217098E700EE1F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C529066217098E700EE1F42 /* LaunchScreen.storyboard */; };
 		0C5290712170993D00EE1F42 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C5290732170993D00EE1F42 /* Localizable.strings */; };
+		0C52907721709F4500EE1F42 /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52907621709F4500EE1F42 /* LocalizationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0C5290722170993D00EE1F42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0C5290742170994C00EE1F42 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0C5290752170996100EE1F42 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0C52907621709F4500EE1F42 /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalizationHelper.swift; path = Helpers/LocalizationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				0C52905D217098E500EE1F42 /* AppDelegate.swift */,
 				0C52905F217098E500EE1F42 /* ViewController.swift */,
+				0C52907621709F4500EE1F42 /* LocalizationHelper.swift */,
 				0C529061217098E500EE1F42 /* Main.storyboard */,
 				0C529064217098E600EE1F42 /* Assets.xcassets */,
 				0C529066217098E700EE1F42 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				0C529060217098E500EE1F42 /* ViewController.swift in Sources */,
 				0C52905E217098E500EE1F42 /* AppDelegate.swift in Sources */,
+				0C52907721709F4500EE1F42 /* LocalizationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +307,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2453AC7K87;
+				DEVELOPMENT_TEAM = 285KN3UUR9;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anand.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btg.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,13 +326,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2453AC7K87;
+				DEVELOPMENT_TEAM = 285KN3UUR9;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anand.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btg.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
