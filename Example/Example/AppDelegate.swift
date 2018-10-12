@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Localization
+//  Example
 //
 //  Created by Anand Kore on 12/10/18.
 //  Copyright © 2018 Anand Kore. All rights reserved.
